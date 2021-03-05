@@ -283,7 +283,7 @@ img.fluid {
 	width: 100%;
 	position: relative;
   	padding-top: 130px;
-  	padding-bottom: 140px;
+  	padding-bottom: 19%;
 }
 
 .home-section-overlay2{
@@ -930,7 +930,7 @@ img.fluid {
 }
 
 .hero-headers h1{
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 32px;
 	font-weight: 700;
 	margin-bottom: 15px;
