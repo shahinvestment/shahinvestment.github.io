@@ -17,12 +17,16 @@
 
     <!-- Loading Template CSS -->
     <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./Goal Planner Buyinganasset – Standard Chartered India_files/cal.css">
     <link href="css/style-magnific-popup.css" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link href="css/fonts.css" rel="stylesheet">
     <link href="font/flaticon.css" rel="stylesheet">
     
+    <link rel="stylesheet" href="./Goal Planner Buyinganasset – Standard Chartered India_files/global-new-fusion.css">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,700i,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
@@ -126,7 +130,7 @@
 						<li class="dropdown"><a href="index.html#guide-go" data-toggle="dropdown" class="dropdown-toggle">Guide</a>
                        
                         </li>
-						<li class="dropdown"><a target="blank" href="GoalPlanner.html" data-toggle="dropdown" class="dropdown-toggle">Goal Planner</a>
+						<li class="dropdown"><a target="blank" href="index.html#go-planner" data-toggle="dropdown" class="dropdown-toggle">Goal Planner</a>
                        
                         </li>
 
@@ -547,7 +551,7 @@
     <!--end section-white-->
 
     <!--begin section-white -->
-    <section id="guide-go" class="section-white">
+    <section id="guide-go" class="section-grey">
         
         <!--begin container-->
         <div class="container">
@@ -608,7 +612,69 @@
     
     </section>
     <!--end section-white-->
-
+	<section id="go-planner" class="section-white">
+	
+                         
+                       <div class="row">
+							<div class="col-md-12">
+							   <h2 class="section-title dark-blue">Goal Planner</h2>
+                            <div class="cal-blog">
+                                <div class="left-icon"><img src="./Goal Planner Buyinganasset – Standard Chartered India_files/goal-icon.png" alt=""></div>
+                                <div class="cal">
+                                    <form id="frmGoalPlanner" name="frmGoalPlanner">
+                                        <ul class="cal-field">
+                                            <li>
+                                                <p>Time to achieve in yrs</p>
+                                                <input name="" value="10" type="text" id="investYear" onkeyup="changeValue()" maxlength="2" class="large-field">
+                                            </li>
+                                            <li>
+                                                <p class="leftAlign">Expected Inflation p.a.</p>
+                                                <div class="input-field">
+                                                    <div class="smallBox">
+                                                        <input name="inflation" value="7" type="text" id="inflation" onkeyup="changeFrom(); changeValue()" maxlength="2" class="small-field"><span>%</span></div>
+                                                    <div class="clear-both"></div>
+                                                </div>
+                                                <div class="string anulrate expectedannual">
+                                                    <div id="slider-range-inflation"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p class="leftAlign">Expected Rate of Return p.a.</p>
+                                                <div class="input-field">
+                                                    <div class="smallBox">
+                                                        <input name="expReturn" value="10" type="text" id="expReturn" onkeyup="changeFrom(); changeValue()" maxlength="2" class="small-field"><span>%</span></div>
+                                                    <div class="clear-both"></div>
+                                                </div>
+                                                <div class="string anulrate expectedannual">
+                                                    <div id="slider-range-expReturn"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>How much have u saved now? (Present value)</p>
+                                                <div class="rup-icon"><img src="./Goal Planner Buyinganasset – Standard Chartered India_files/rup-icon.png" alt=""></div>
+                                                <input name="pv_value" value="1,00,000" type="text" id="pv_value" onkeyup="addCommas(document.frmGoalPlanner.pv_value); changeValue()" maxlength="25" class="large-field">
+                                            </li>
+                                            <li>
+                                                <p>How much do you need? (Cost of Goal today)</p>
+                                                <div class="rup-icon"><img src="./Goal Planner Buyinganasset – Standard Chartered India_files/rup-icon.png" alt=""></div>
+                                                <input name="goalToday" value="10,00,000" type="text" id="goalToday" onkeyup="addCommas(document.frmGoalPlanner.goalToday); changeValue()" maxlength="25" class="large-field">
+                                            </li>
+                                        </ul>
+                                        <div class="result-details">
+                                            <div class="detail">
+                                                <div class="title"><span>You need an investment of</span></div>
+                                                <span><em class="WebRupee">Rs. </em><em id="monthlyInvest">8,213</em></span>
+                                                <p>per month to buy an asset which will cost
+                                                    <br><em class="WebRupee greencolor">Rs. </em><em id="f_value" class="greencolor">19,67,151</em>, <em class="ch-year">10</em> years later.</p>
+                                            </div>
+                                            <div class="clear-both"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+						</div>
+     </section>
     <!--begin fun-facts -->
     <div class="fun-facts-wrapper3">
 
@@ -807,6 +873,7 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/custom.js"></script>
-   
-    
+    <!-- JS Plugins -->
+    <script type="text/javascript" src="./Goal Planner Buyinganasset – Standard Chartered India_files/goal-planner-cal.js.download"></script>
+  
 </body></html>

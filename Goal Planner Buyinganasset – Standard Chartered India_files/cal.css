@@ -1,6 +1,6 @@
 
-.cal-blog{background:#f0efe0 url(/in/assets/pws/images/banner/cal/cal-bg.jpg) repeat-x 0 0; min-height:300px; padding:20px 30px 20px 20px; border:solid 1px #f1f1e3;}
-.cal-blog .left-icon{width:115px; float:left;}
+.cal-blog{background:#00000 repeat-x 0 0; min-height:300px; padding:20px 30px 20px 20px; border:solid 1px #f1f1e3;}
+.cal-blog .left-icon{width:115px; float:center;}
 .cal-blog .cal{padding:0 50px 0 125px; }
 .cal-blog .cal ul.cal-field{list-style:none; margin:0px;}
 .cal-blog .cal ul.cal-field li{font-weight:inherit; position:relative; padding-left:1.5em !important;}
