@@ -1,0 +1,220 @@
+
+.cal-blog{background:#f0efe0 url(/in/assets/pws/images/banner/cal/cal-bg.jpg) repeat-x 0 0; min-height:300px; padding:20px 30px 20px 20px; border:solid 1px #f1f1e3;}
+.cal-blog .left-icon{width:115px; float:left;}
+.cal-blog .cal{padding:0 50px 0 125px; }
+.cal-blog .cal ul.cal-field{list-style:none; margin:0px;}
+.cal-blog .cal ul.cal-field li{font-weight:inherit; position:relative; padding-left:1.5em !important;}
+/* 28jan */
+.cal-blog .cal ul.cal-field li p.leftAlign{ float:left; }
+.greencolor{ color:#29ad48;}
+/* 28jan */
+
+.cal-blog .cal ul.cal-field li .rup-icon{position:absolute;bottom:19px; left:30px; width:10px; height:10px; }
+.cal-blog .cal ul.cal-field li .large-field{padding-left:15px;}
+
+.cal-blog .cal ul.cal-field strong, .cal-blog .cal ul.cal-field b{font-weight:bold;}
+.clear-both{clear:both; line-height:0px; height:0px; }
+.clear-right{clear:right; line-height:0px; height:0px;}
+.cal-field .input-field{/*clear:both; min-height:40px;*/ position:relative; min-height:20px;}
+.cal-field .input-field .smallBox{ position:absolute; right:0px; top:0px;}
+.cal-field .input-field .smallBox.left-box{right:inherit; left:0px;}
+
+.cal-field .input-title{padding-bottom:10px;}
+.cal-field .input-title .left-title{float:left; line-height:18px; padding:5px 0; width:50%;}
+.cal-field .input-title .right-title{float:right; line-height:18px; padding:5px 0;}
+
+
+.cal-field .input-field .small-field{width:50px; margin:0px; color:#68bf22; text-align:center; display:inline-block;}
+.cal-field .input-field span{color:#68bf22;  font-size:16px; display:inline-block; padding-left:5px;}
+/* 28jan */
+.cal-field li p{/*margin:25px 0 5px 0;*/ margin:7px 0 5px 0;}
+/* 28jan */
+.result-details{padding:20px 0px 5px 20px;}
+.result-details p{font-size:12px; margin-bottom:8px;}
+/*.result-details .left-detail{width:47%; margin-right:6%; float:left;}
+.result-details .right-detail{width:47%; float:left; }*/
+.result-details .detail{background:#f0efe0 url(/in/assets/pws/images/banner/cal/result-bg.jpg) repeat-x 0 0; border:solid 1px #e7e7e6; width:80%; padding:25px 10px 10px; text-align:center; position:relative;}
+.result-details .detail .title{position:absolute; top:-13px; width:100%; text-align:center; left:0px;}
+.result-details .detail .title span{display:inline-block; padding:2px 8px; background:#26922c; color:#fff; font-size:12px; }
+
+.result-details span{color:#29ad48; font-size:24px;display:block; padding:0 0 6px;word-wrap:break-word;}
+.result-details em{font-style:normal;}
+.result-details strong,
+.result-details p strong,
+.result-details strong em{font-weight:bold;}
+
+.right-cal-banner{padding-bottom:10px;}
+.right-cal-banner a{color:#555555;}
+.right-cal-banner a:hover{color:#26922C;}
+.result-details  .belowTxt{width:80%; padding:10px 10px 10px; text-align:center; font-size:12px;}
+.cal-desc{position:relative; top:-10px; }
+.two-part .detail{width:42%; float:left; margin:15px 10px;}
+
+.cal-blog .planner-list{}
+.cal-blog .planner-list>ul{margin:10px  0 0 !important; padding:0px;}
+.cal-blog .planner-list>ul>li{width:31%; float:left; margin:2px !important; background:#ececec; min-height:202px; padding:20px !important; list-style:none;} 
+.cal-blog .planner-list>ul>li span{display:block; padding:1px 0; text-align:center; line-height:18px;}
+.cal-blog .planner-list>ul>li span img{width:100%;}
+
+.cal-blog .planner-list>ul>li a{color:#555555;}
+.cal-blog .planner-list>ul>li a:hover{color:#26922C;}
+.selectEducation{margin-top:10px;}
+
+.inpage-content dl.expander-cal{margin:10px 0;	border-bottom:1px solid #dadada}
+.expander-cal .cal-field li:first-child p{margin-top:0px;}
+.expander-cal>dt:first-child {margin-top:0}
+.expander-cal dd, .expander-cal dd {position:relative}
+.expander-cal dd {margin-top:0;	padding:0 10px 10px}
+.expander-cal dt a {display:block;	color:black;	padding:10px;	position:relative;	border-top:1px solid #dadada}
+.expander-cal.green-arrow dt a, .expander-cal.green-arrow dd {	padding-left:14px;	padding-right:36px}
+.expander-cal>dt>a.active-hd {	color:#26922c}
+.expander-cal>dt>a:after, .expander-cal>dd:after {position:absolute;	content:"";	height:14px;	width:14px;	right:0;	top:50%;	background:url(https://www.sc.com/global/assets/global/images/page/green-arrow-tb.png) bottom center;moz-transition:opacity .3s linear;-o-transition:opacity .3s linear;transition:opacity .3s linear;
+	-webkit-transition-property:color, opacity;-webkit-transition-duration:.3s, 0.3s}
+.expander-cal>dt{font-size:18px; }
+.expander-cal>dt>a:after {	margin-top:-7px}
+.expander-cal>dd:after {	margin-top:-30px;	background-position:top center;	top:0px;}
+.expander-cal>dt>a.active-hd:after, .expander-cal>dd:after {-ms-filter:"alpha(opacity=0)";	filter:alpha(opacity=0);	-moz-opacity:0;	-khtml-opacity:0;	opacity:0}
+.expander-cal>dd.active:after, .expander-cal>dt>a:after {	-ms-filter:"alpha(opacity=100)";	filter:alpha(opacity=100);	-moz-opacity:1;	-khtml-opacity:1;	opacity:1}
+
+.result-details span.separator{
+	clear: both;
+    display: block;
+    font-family: "HelveticaNeue-Bold","Helvetica Neue Bold","HelveticaNeueW01-75Bold","Helvetica Neue",Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px 0 0;
+    text-align: center;
+    width: 80%;
+}
+
+
+/* selecbox Styles */									
+.stylish-select .SSContainerDivWrapper {
+	margin:0;
+	padding:0;
+	width:100%;
+	position:absolute;
+	top:25px !important;
+	left:0;
+	z-index:99;
+	background:#fff;
+	
+	margin-left:0px !important;
+}
+.stylish-select ul.newList {
+	margin:0;
+	padding:0;
+	padding-bottom:10px;
+	list-style:none;
+	color:#000;
+	overflow:auto;
+	font:11px Verdana, Geneva, sans-serif;
+	color:#000;
+	
+}
+.stylish-select ul.newList * {
+	margin:0;
+	padding:0;
+}
+.stylish-select ul.newList a {
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px 3px 10px;
+	outline:none;
+	cursor:pointer;
+}
+.stylish-select .newListSelected {
+	color:#000;
+	
+	padding:0px;
+	width:100%;
+	float:left;
+	background:#fff;
+	font-size:12px;
+	cursor:pointer;
+	outline:none;
+	/*margin-top:6px;*/
+	z-index:99;
+}
+.stylish-select ul.newList li {
+	padding:0px !important; margin:0px !important; text-align:left; font-size:11px;
+}
+.stylish-select .newListSelected:hover {
+	background-position:0px 0px;
+}
+.stylish-select ul.newList li a:focus {
+	-moz-outline-style: none;
+}
+.stylish-select .selectedTxt {
+	overflow:hidden;
+	height:30px;
+	background:url(/in/assets/pws/images/banner/cal/select-arrow.png) no-repeat 96% 12px; text-align:left;
+	padding:0 10px;
+	white-space:nowrap;
+	border:solid 1px #e4e4e4;
+	font:11px/30px Verdana, Geneva, sans-serif;
+	color:#000
+}
+.stylish-select .hiLite {
+	color:#000!important;
+}
+.stylish-select .newListHover {
+	background:#f2f2f2!important;
+	color:#000!important;
+	cursor:default;
+}
+.stylish-select .newListOptionTitle {
+	font-weight:bold;
+}
+.stylish-select .newListOptionTitle ul {
+	margin:3px 0 0;
+}
+.stylish-select .newListOptionTitle li {
+	font-weight:normal;
+	border-left:1px solid #ccc;
+}
+.selectbg {
+	width:123px !important;
+}
+.cuisine .newListSelected {
+	background:url(/in/assets/pws/images/banner/cal/selectbox_cusine.jpg) no-repeat left top !important;
+}
+.cuisine .newListSelected {
+	width:158px !important;
+}
+.cuisine .SSContainerDivWrapper {
+	width:100%;
+	
+}
+.cuisine ul.newList {
+	margin:0px !important; padding:0px !important;
+	
+}
+
+.hiddenpage {
+	display:none
+}
+
+.selectOption{min-height:50px;}
+
+#emiCal .cal-field li+li .input-field .smallBox {right:15px;}
+#emiCal .cal-field li+li+li .input-field .smallBox{right:0px;}
+
+
+.selectFrequency{position:relative; z-index:1000;}
+.selectFrequency ul{display:none; position:absolute ; top:0; left:0px; width:100%;  background:#fff; padding:5px 0; margin:0px; }
+.selectFrequency ul li{list-style:none; font-size:12px; padding:2px 0; cursor:pointer;}
+.selectOption .selectedTxt{overflow:hidden;	height:30px; cursor:pointer;	background:#fff url(/in/assets/pws/images/banner/cal/select-arrow.png) no-repeat 96% 12px; text-align:left;	padding:0 10px;	white-space:nowrap;	border:solid 1px #e4e4e4;	font:11px/30px Verdana, Geneva, sans-serif; display:block;	color:#000}
+.selectFrequency ul.showFqc{display:block;}
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+.cal-blog .left-icon{display:none;}
+.cal-blog .cal{padding:0px;}
+.result-details .detail,.result-details  .belowTxt{width:auto; }
+.cal-blog .planner-list ul li{width:45%; min-height:180px;}
+
+}
